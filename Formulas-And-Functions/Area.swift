@@ -51,3 +51,24 @@ func forParallelogramWith(base b : Double, height h :Double) -> Double {
     let result = b * h
     return result
 }
+
+func forTriangleWith(base b : Double, height h :Double) -> Double {
+    
+    // Complete this function
+    let result = b * h * 0.5
+    return result
+}
+
+func forCircleWith(radius r : Double) -> Double {
+    
+    // Complete this function
+    let result = Double.pi * r * r
+    return result
+}
+
+func forSphereWith(radius r : Double) -> Double {
+    
+    // Complete this function
+    let result = Double.pi * r * r * 4
+    return result
+}
